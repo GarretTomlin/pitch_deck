@@ -1,0 +1,40 @@
+{
+  "name": "@orb_deck/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@copilotkit/react-core": "^1.8.11",
+    "@copilotkit/react-textarea": "^1.8.11",
+    "@copilotkit/react-ui": "^1.8.11",
+    "@orb_deck/ag-ui-components": "workspace:*",
+    "@orb_deck/shared-types": "workspace:*",
+    "@orb_deck/utils": "workspace:*",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.11.3",
+    "next": "14.2.0",
+    "react": "^18.3.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.8.1",
+    "sonner": "^2.0.3",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.47",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@types/socket.io-client": "^3.0.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.8.3"
+  }
+}
