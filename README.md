@@ -1,5 +1,10 @@
 # ORB\_DECK – AI-Powered Pitch Deck Generator
 
+
+## Architecture
+
+<img src="https://github.com/GarretTomlin/pitch_deck/blob/main/docs/architecture.png"/>
+
 ## 1. Key Technologies
 
 * **ag-ui Protocol**
