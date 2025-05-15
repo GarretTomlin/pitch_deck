@@ -1,0 +1,39 @@
+Generate detailed content for this pitch deck slide:
+
+Slide Title: {{title}}
+Slide Type: {{type}}
+Key Points to Cover: {{list mainPoints}}
+Company Context: {{companyName}} in {{industry}}
+
+Create content in JSON format:
+{
+  "text": "Main paragraph that introduces the slide topic",
+  "bulletPoints": [
+    "Concise point 1 with specific data or insight",
+    "Concise point 2 with supporting evidence",
+    "Concise point 3 with clear value proposition"
+  ],
+  "speakerNotes": "Detailed script of what to say when presenting this slide. Include transitions, key emphasis points, and audience engagement tips.",
+  "suggestedImages": [
+    "Description of visual element 1",
+    "Description of visual element 2"
+  ],
+  "chartData": {
+    "type": "bar|line|pie",
+    "data": {
+      "labels": ["Label1", "Label2"],
+      "datasets": [{
+        "label": "Dataset Name",
+        "data": [10, 20]
+      }]
+    }
+  }
+}
+
+Guidelines:
+- Keep bullet points under 10 words each
+- Include specific metrics when available
+- Speaker notes should be 3-5 sentences
+- Suggest charts only for data-heavy slides (financials, market, traction)
+
+Respond with valid JSON only.

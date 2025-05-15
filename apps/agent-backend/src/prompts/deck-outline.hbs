@@ -1,0 +1,40 @@
+Create a comprehensive pitch deck outline for:
+
+Company: {{companyName}}
+Industry: {{industry}}
+Problem: {{problemStatement}}
+Solution: {{solution}}
+{{#when businessModel}}
+Business Model: {{businessModel}}
+{{/when}}
+{{#when targetMarket}}
+Target Market: {{targetMarket}}
+{{/when}}
+
+Research Insights:
+{{json research}}
+
+Generate a pitch deck structure with exactly 12 slides in JSON format:
+{
+  "suggestedSlides": [
+    {
+      "type": "title",
+      "title": "Company Title Slide",
+      "mainPoints": ["tagline", "vision statement"],
+      "suggestedVisuals": ["company logo", "hero image"]
+    },
+    {
+      "type": "problem",
+      "title": "The Problem We Solve",
+      "mainPoints": ["pain point 1", "pain point 2", "pain point 3"],
+      "suggestedVisuals": ["problem illustration", "statistics graphic"]
+    }
+    // ... continue for all slides
+  ],
+  "narrative": "The overall story arc that connects all slides",
+  "keyMessages": ["core message 1", "core message 2", "core message 3"]
+}
+
+Required slide types: title, problem, solution, market, business-model, competition, team, traction, financials, roadmap, ask, contact
+
+Ensure the narrative flows logically from problem to solution to market opportunity.

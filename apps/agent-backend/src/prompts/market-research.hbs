@@ -1,0 +1,29 @@
+Based on search results about {{industry}}:
+
+{{#each searchResults}}
+Result {{@index}}:
+{{json this}}
+{{/each}}
+
+Extract and structure the following information in JSON format:
+{
+  "competitors": [
+    {
+      "name": "Competitor Name",
+      "description": "Brief description of the company",
+      "marketShare": "Percentage or estimate",
+      "strengths": ["key strength 1", "key strength 2"],
+      "weaknesses": ["weakness 1", "weakness 2"]
+    }
+  ],
+  "marketSize": "Total market size in dollars and annual growth rate",
+  "trends": ["major trend 1", "major trend 2", "major trend 3"],
+  "insights": ["strategic insight 1", "strategic insight 2", "strategic insight 3"]
+}
+
+Focus on:
+- {{companyName}}'s competitive position
+- Market opportunities for {{problemStatement}}
+- Growth potential in {{industry}}
+
+Provide only valid JSON in your response.
