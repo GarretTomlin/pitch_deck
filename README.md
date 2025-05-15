@@ -108,10 +108,3 @@ GOOGLE_CALLBACK_URL="http://localhost:3001/auth/google/callback"
 | `workflow.complete`   | `{ outputUrls }`             | Generation complete  |
 | `workflow.error`      | `{ errorMessage }`           | Error occurred       |
 | `human.input.request` | `{ slideId, prompt }`        | Feedback requested   |
-<<<<<<< HEAD
-
-=======
-# orb_deck
-# orb_deck
->>>>>>> parent of 073e3a58e (first commit)
-# orb_deck
